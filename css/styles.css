@@ -1,0 +1,176 @@
+/* Globais */
+body {
+    color: #333;
+}
+
+body > div.row {
+    margin: 0;
+}
+
+h5 {
+    margin-top: 0;
+    font-weight: 300;
+    color: rgb(235, 161, 23);
+    font-size: 20px;
+}
+
+/* Página Principal */
+.container-menu {
+    margin: 0;
+    padding: 0 !important;
+}
+
+.container-logo {
+    height: 200px;
+    background-color: lightsalmon;
+}
+
+.container-menu-inner {
+    padding-top: 50px;
+}
+.container-menu-inner > a {
+    width: 100%;
+    height: 60px !important;
+    font-weight: 300;
+    font-size: 12px;
+    text-transform: none;
+    text-decoration: none;
+    color: #333;
+}
+.container-menu-inner > a.selecionado {
+    font-weight: 600;
+    background-color: #f5f5f5;
+    border-left: 6px solid teal;
+}
+
+.btn-menu {
+    height: 100%;
+    padding-left: 20px;
+}
+.btn-menu > i {
+    font-size: 26px;
+    margin-right: 20px;
+    color: rgb(235, 161, 23);
+}
+
+a.selecionado > .btn-menu > i {
+    color: teal;
+}
+
+.container-info-usuario {
+    margin: 10px 0;
+}
+
+.info-usuario {
+    padding-right: 50px;
+}
+.info-usuario .nome {
+    font-size: 20px;
+    color: teal;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+.info-usuario .subtitulo {
+    font-size: 14px;
+    color: #b7b7b7;
+    font-weight: 300;
+    margin-top: 0;
+}
+.info-usuario .col.s2 {
+    padding-right: 0;
+}
+.info-usuario .col.s1 {
+    padding-left: 0;
+}
+.info-usuario i {
+    color: #b7b7b7;
+}
+.img-usuario > img {
+    max-height: 50px;
+}
+
+.container-card-principal {
+    padding: 40px !important;
+}
+
+.container-pesquisa {
+    padding-right: 20px;
+}
+.container-pesquisa input {
+    height: 15px !important;
+    width: 250px !important;
+    padding: 5px 10px !important;
+    background-color: #f5f5f5 !important;
+    border: 1px solid rgb(236, 236, 236) !important;
+    border-radius: 5px !important;
+    font-size: 12px !important;
+}
+.container-pesquisa input::placeholder {
+    color: rgb(116, 116, 116);
+}
+.container-pesquisa > i {
+    position: absolute;
+    right: 0;
+    padding-top: 3px;
+    padding-right: 80px;
+    font-size: 20px;
+    color: #b7b7b7;
+}
+
+table > thead {
+    display: none;
+}
+table tr {
+    border-bottom-color: rgba(0, 0, 0, 0.05); 
+}
+table td {
+    padding: 25px 0;
+}
+
+.info-curso-data {
+    position: absolute;
+    margin-left: -90px;
+    width: 55px;
+    height: 55px;
+    color: teal;
+    border-radius: 50px;
+}
+.info-curso-data > h4 {
+    color: teal;
+    font-size: 24px;
+    margin: 0;
+    margin-top: 5px;
+    font-weight: 600;
+}
+.info-curso-data > p {
+    margin: 0;
+    font-size: 12px;
+    line-height: 12px;
+    text-transform: uppercase;
+}
+.info-curso-nome > p {
+    margin: 0;
+    font-size: 12px;
+}
+.info-curso-colaboradores {
+    font-size: 12px;
+}
+.info-curso-colaboradores .quantidade .inscritos {
+    font-size: 22px;
+    font-weight: 300;
+    color: rgb(235, 161, 23);
+    margin-left: 20px;
+}
+.info-curso-colaboradores .quantidade .limite {
+    color: #b7b7b7;
+}
+
+.btn-table {
+    height: 30px;
+    width: 100px;
+    line-height: 30px;
+    color: lightseagreen;
+    font-size: 12px;
+    border-radius: 5px;
+    box-shadow: none;
+}
