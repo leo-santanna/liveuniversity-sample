@@ -14,6 +14,11 @@ h5 {
     font-size: 20px;
 }
 
+[type="checkbox"].filled-in + span:not(.lever):after {
+    background-color: rgb(209, 130, 34) !important;
+    border-color: rgb(138, 78, 0) !important;
+}
+
 /* Página Principal */
 .container-menu {
     margin: 0;
@@ -22,7 +27,9 @@ h5 {
 
 .container-logo {
     height: 200px;
-    background-color: lightsalmon;
+}
+.container-logo > img {
+    max-width: 200px;
 }
 
 .container-menu-inner {
@@ -88,6 +95,8 @@ a.selecionado > .btn-menu > i {
 .img-usuario > img {
     max-height: 50px;
 }
+
+/* Listagem de Cursos */
 
 .container-card-principal {
     padding: 40px !important;
@@ -173,4 +182,87 @@ table td {
     font-size: 12px;
     border-radius: 5px;
     box-shadow: none;
+}
+
+/* TESTE */
+#listagem-cursos {
+    display: none;
+}
+
+/* Detalhamento do Curso */
+#detalhamento-curso > p {
+    margin: 0;
+    color: rgb(235, 161, 23);
+    font-weight: 300;
+}
+
+.container-acoes-cursos {
+    margin-top: 40px;
+}
+.btn i {
+    position: absolute;
+    left: 0;
+    margin-left: 10px;
+}
+.container-acoes-cursos .btn {
+    width: 200px;
+}
+.btn-toggle-checklist {
+    width: 150px !important;
+    color: rgb(235, 161, 23);
+}
+
+.container-checklist {
+    background-color: #f7f7f7;
+    border-left: 6px solid rgb(235, 161, 23);
+    padding: 25px 0;
+    height: 250px;
+}
+
+.item-checklist > div {
+    display: inline;
+}
+
+.container-item-checklist > span {
+    line-height: 4px !important;
+    margin-bottom: 30px;
+}
+
+.titulo-item-checklist {
+    display: block;
+    color: #333;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.subtitulo-item-checklist {
+    color: #777;
+    font-size: 14px;
+}
+
+.btn-adicionar {
+    width: 150px !important;
+    color: rgb(235, 161, 23);
+    margin-right: 20px;
+}
+
+.container-titulo-colaboradores {
+    margin-top: -40px;
+}
+.container-titulo-colaboradores h5 {
+    color: teal;
+    border-bottom: 2px solid #f7f7f7;
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+
+.info-colaborador p {
+    font-size: 12px;
+    margin: 0;
+}
+.info-colaborador.empresa {
+    padding-left: 100px;
+}
+
+.btn-orange {
+    color: rgb(235, 161, 23);
 }
