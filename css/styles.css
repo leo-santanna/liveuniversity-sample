@@ -185,7 +185,7 @@ table td {
 }
 
 /* TESTE */
-#listagem-cursos {
+#detalhamento-curso {
     display: none;
 }
 
@@ -258,6 +258,9 @@ table td {
 .info-colaborador p {
     font-size: 12px;
     margin: 0;
+}
+.info-colaborador.nome {
+    padding-left: 20px;
 }
 .info-colaborador.empresa {
     padding-left: 100px;
