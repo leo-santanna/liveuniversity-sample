@@ -1,5 +1,6 @@
 $('#menu-cursos').click(() => {
     $('#detalhamento-curso').hide();
+    $('#checklist').hide();
     $('#listagem-cursos').show();
 })
 
